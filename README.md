@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 🌟 Modern Personal Portfolio & Interactive CV
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![Material-UI](https://img.shields.io/badge/MUI-v5-007FFF?style=flat-square&logo=mui&logoColor=white)](https://mui.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
-## Available Scripts
+A clean, responsive, and interactive portfolio & resume web application designed to showcase professional experience, projects, technical skills, and contact information. Built with modern web development standards and sleek Material Design aesthetics.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive & Modern UI:** Optimized for all screen sizes (mobile, tablet, desktop) using Material-UI (MUI v5) Grid and component systems.
+- **Interactive Resume & Timeline:** Categorized work experience and education timelines with modal popups for detailed descriptions.
+- **Dynamic Portfolio Showcase:** Filterable project catalog with preview images, tech stack badges, and direct links.
+- **Profile Sidebar:** Always-accessible personal snapshot with direct contact details and CV download trigger.
+- **Contact Hub:** Interactive validated contact form ready for backend or service integration (e.g., EmailJS / Formspree).
+- **Clean Architecture:** Modular component structure with clean separation of data (`portfolioData.js`, `resumeData.js`) and presentation logic.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Core:** [React.js](https://reactjs.org/)
+- **UI Framework & Components:** [Material-UI (MUI v5)](https://mui.com/) & [MUI Lab](https://mui.com/material-ui/about-the-lab/)
+- **Icons:** [MUI Icons](https://mui.com/material-ui/material-icons/)
+- **Styling:** CSS3, Emotion (MUI default theme engine)
+- **Deployment:** GitHub Pages / Vercel / Netlify
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📁 Project Structure
+```text
+src/
+├── assets/          # Images, logos, and static resources
+├── components/      # Reusable UI widgets (Timeline, Header, Profile, etc.)
+├── pages/           # Main route views (Resume, Portfolio, Contact, Skills)
+├── utils/           # Static data objects and configuration
+├── App.jsx          # App layout root and routing
+└── index.js         # React DOM entrypoint
